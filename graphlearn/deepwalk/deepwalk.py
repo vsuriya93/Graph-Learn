@@ -49,13 +49,3 @@ class Model:
 			pass
 
 		self.word2vec_model=self._build_word2vec_model(data_matrix)
-"""
-graph={}
-graph[0]=[1,2,3]
-graph[1]=[1,2]
-graph[2]=[1]
-graph[3]=[2]
-from graphlearn.deepwalk import Model
-clf=Model()
-clf.fit(graph)
-"""
